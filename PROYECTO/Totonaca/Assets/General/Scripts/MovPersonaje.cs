@@ -12,6 +12,7 @@ public class MovPersonaje : MonoBehaviour {
 	Vector3 Velocidad, Lineal;
 	float distancia;
 	bool avanzar;
+	public moverSprite spri;
 			
 	void Start () {
 		thisTransform = transform;
@@ -22,6 +23,11 @@ public class MovPersonaje : MonoBehaviour {
 	
 	void Update () {
 		distancia = Vector3.Distance (Objetivo.transform.position, transform.position);
+		if (transform.position.x < Objetivo.transform.position.x){
+			spri.dir = 1;
+		}else{
+			spri.dir = -1;
+		}
 		controlarAceleracion();
 		Lineal= buscar();
 

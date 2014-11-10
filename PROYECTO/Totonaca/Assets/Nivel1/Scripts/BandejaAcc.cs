@@ -3,11 +3,12 @@ using System.Collections;
 
 public class BandejaAcc : MonoBehaviour {
 
-	public Activacion Piedra, Pala, Vaso;
+	public Activacion esto, Piedra, Pala, Vaso;
 	public Ven APiso, AMesa;
+	public Interfaz cam;
 	// Use this for initialization
 	void Start () {
-	
+
 	}
 	
 	// Update is called once per frame
@@ -16,13 +17,17 @@ public class BandejaAcc : MonoBehaviour {
 	}
 
 	void OnMouseOver(){
-		if (Input.GetMouseButtonUp (0)) {
-			Piedra.accActivo = true;
-			Pala.accActivo = true;
-			Vaso.accActivo = true;
-			APiso.accActivo = true;
-			AMesa.accActivo = true;
-			Destroy (gameObject);
+		if ((esto.activo)&&(esto.accActivo)){
+			if (Input.GetMouseButtonUp (0)) {
+				Piedra.accActivo = true;
+				Pala.accActivo = true;
+				Vaso.accActivo = true;
+				APiso.accActivo = true;
+				AMesa.accActivo = true;
+				Destroy (gameObject);
+				cam.bandeja.localPosition = cam.posBan;
+				cam.tapa.localPosition = cam.posTapa;
+			}
 		}
 	}
 

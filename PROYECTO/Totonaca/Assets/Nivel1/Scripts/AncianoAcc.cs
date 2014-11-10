@@ -5,7 +5,7 @@ public class AncianoAcc : MonoBehaviour {
 
 	public Activacion Bandeja;
 	public Ven APared;
-	public GameObject Instrucciones;
+	public GameObject Instrucciones, gorro;
 	Vector3 pos, x;
 	bool mostrar;
 	public bool Arena, Agua, Piedra;
@@ -28,7 +28,9 @@ public class AncianoAcc : MonoBehaviour {
 			APared.accActivo = true;
 			mostrar = true;
 			if ((Arena)&&(Agua)&&(Piedra)){
-				print("FIN DEL NIVEL");
+				gorro.animation.wrapMode = WrapMode.Loop;
+				gorro.animation.Play("gorro");
+				mostrar = false;
 			}
 		}
 		if (mostrar){

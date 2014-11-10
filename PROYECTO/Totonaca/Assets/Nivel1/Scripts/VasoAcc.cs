@@ -3,7 +3,7 @@ using System.Collections;
 
 public class VasoAcc : MonoBehaviour {
 	
-	public Activacion Rio;
+	public Activacion esto, Rio;
 	public Ven ARio;
 
 	void Start () {
@@ -15,12 +15,13 @@ public class VasoAcc : MonoBehaviour {
 	}
 	
 	void OnMouseOver(){
-		if (Input.GetMouseButtonUp (0)) {
-			Rio.accActivo = true;
-			ARio.accActivo = true;
-			Destroy (gameObject);
+		if ((esto.activo)&&(esto.accActivo)){
+			if (Input.GetMouseButtonUp (0)) {
+				Rio.accActivo = true;
+				ARio.accActivo = true;
+				Destroy (gameObject);
+			}
 		}
-
 	}
 	
 }

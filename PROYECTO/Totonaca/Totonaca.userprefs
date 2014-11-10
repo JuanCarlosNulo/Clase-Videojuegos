@@ -1,12 +1,9 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Nivel1\Scripts\VasoAcc.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Nivel1\Scripts\TerminarDemo.cs">
     <Files>
-      <File FileName="Assets\Nivel1\Scripts\Entrar.cs" Line="14" Column="39" />
-      <File FileName="Assets\Nivel1\Scripts\BandejaAcc.cs" Line="25" Column="1" />
-      <File FileName="Assets\Nivel1\Scripts\Conseguido.cs" Line="25" Column="25" />
-      <File FileName="Assets\Nivel1\Scripts\PalaAcc.cs" Line="22" Column="25" />
-      <File FileName="Assets\Nivel1\Scripts\VasoAcc.cs" Line="7" Column="18" />
+      <File FileName="Assets\Nivel1\Scripts\AncianoAcc.cs" Line="26" Column="34" />
+      <File FileName="Assets\Nivel1\Scripts\TerminarDemo.cs" Line="14" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
