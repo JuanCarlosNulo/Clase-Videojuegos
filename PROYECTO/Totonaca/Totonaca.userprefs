@@ -1,0 +1,16 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Nivel1\Scripts\VasoAcc.cs">
+    <Files>
+      <File FileName="Assets\Nivel1\Scripts\Entrar.cs" Line="14" Column="39" />
+      <File FileName="Assets\Nivel1\Scripts\BandejaAcc.cs" Line="25" Column="1" />
+      <File FileName="Assets\Nivel1\Scripts\Conseguido.cs" Line="25" Column="25" />
+      <File FileName="Assets\Nivel1\Scripts\PalaAcc.cs" Line="22" Column="25" />
+      <File FileName="Assets\Nivel1\Scripts\VasoAcc.cs" Line="7" Column="18" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
